@@ -8,20 +8,20 @@ This is a parallel version of John Conway's Game of Life written in OpenMP, a pa
 
 The 2-dimensional world is restricted to an NxN matrix.
 
-ex.
-Generation 0:
-0 0 0 0 0 
-0 1 1 0 0 
-0 0 1 0 0 
-0 0 1 0 0 
-0 0 0 0 0
+ex. <br>
+Generation 0: <br>
+0 0 0 0 0  <br>
+0 1 1 0 0  <br>
+0 0 1 0 0  <br>
+0 0 1 0 0  <br>
+0 0 0 0 0 <br>
 
-Generation 1:
-0 0 0 0 0 
-0 1 1 0 0 
-0 0 1 1 0 
-0 0 0 0 0 
-0 0 0 0 0
+Generation 1: <br>
+0 0 0 0 0  <br>
+0 1 1 0 0  <br>
+0 0 1 1 0  <br>
+0 0 0 0 0  <br>
+0 0 0 0 0 <br>
 
 
 
@@ -32,12 +32,12 @@ The program requires 4 arguments in the following order:
 3. The number of threads
 4. The filename of the text file that contains the initial matrix. The file should a NxN matrix of integers. Cells at each row are separated by a space. An alive cell is represented by a 1, while a dead one is presented by a 0. 
 
-ex.
-0 0 0 0 0 
-0 1 1 0 0 
-0 0 1 0 0 
-0 0 1 0 0 
-0 0 0 0 0
+ex. <br>
+0 0 0 0 0 <br> 
+0 1 1 0 0 <br>
+0 0 1 0 0 <br>
+0 0 1 0 0 <br>
+0 0 0 0 0 <br>
 
 
 ### Output:
